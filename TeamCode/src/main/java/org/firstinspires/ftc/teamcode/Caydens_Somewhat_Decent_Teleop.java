@@ -75,7 +75,7 @@ public class Caydens_Somewhat_Decent_Teleop extends LinearOpMode {
 
         boolean ElbowLocked = false;
         mySound = new SoundPool(1, AudioManager.STREAM_MUSIC, 0); // PSM
-        beepID = mySound.load(hardwareMap.appContext, R.raw.chimes, 1); // PSM
+        //beepID = mySound.load(hardwareMap.appContext, R.raw.chimes, 1); // PSM
         /* Initialize the hardware variables.
          * The init() method of the hardware class does all the work here
          */
